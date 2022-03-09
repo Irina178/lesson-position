@@ -1,0 +1,60 @@
+body {
+   box-sizing: border-box;
+   padding: 0 15px;
+   margin: 0;
+   padding: 0;
+}
+.container {
+   max-width: 1110px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.block {
+   background-color: rgb(212, 245, 212);
+   border: 2px solid red;
+   height: 1500px;
+   position: relative;
+   width: 1110px;
+}
+.block div {
+   text-transform: uppercase;
+   text-decoration: underline;
+   text-shadow: 2px 2px 4px blue;
+   text-align: center;
+   letter-spacing: 7px;
+   line-height: 15px;
+   font-size: 20px;
+   padding-top: 10px;
+   height: 27px;
+   margin-bottom: 7px;
+}
+.block__1 {
+   background-color: rgb(16, 190, 233);
+   position: absolute;
+   top: 25px;
+   left: 30px;
+   width: 1110px;
+}
+.block__2 {
+   background-color: blueviolet;
+   position: fixed;
+   top: 25px;
+   width: 1110px;
+}
+.block__3 {
+   background-color: yellow;
+}
+.block__4 {
+   background-color: rgb(255, 94, 0);
+}
+.block__5 {
+   background-color: rgb(33, 19, 228);
+}
+.block__6 {
+   background-color: white;
+}
+.block__7 {
+   background-color: rgb(20, 20, 19);
+}
